@@ -1,0 +1,267 @@
+/* Portfolio CSS File */
+/* Author: Jack Cain */
+/* 09/08/2015 */
+
+a {
+    color: rgba(107, 110, 207, 1);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(181, 207, 107, .75);
+    font-size: 1.5vw;
+}
+
+caption {
+    color: rgba(181, 207, 107, .75);
+}
+
+footer {
+    clear: both;
+}
+
+h1 {
+    color: rgba(206, 219, 156, 1);
+    font-size: 5vw;
+    padding-bottom: 2%;
+}
+
+h2 {
+    color: rgba(206, 219, 156, 1);
+    font-size: 3vw;
+}
+
+header {
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+header h1 {
+    color: rgba(181, 207, 107, .75);
+    font-size: 6vw;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Animation Section */
+
+@keyframes passion {
+    from {
+        opacity: 0;
+    }
+
+    to {opacity: 100;
+    }
+}
+
+/* ID Section */
+
+#copyright {
+    padding: 2% 0;
+}
+
+#denoon {
+    background: #111 url("../websites/denoons/assets/images/poster.png") no-repeat center bottom;
+    height: 100%;
+}
+
+#fireworks {
+    height: 175px;
+}
+
+#hero {
+    height: 1200px;
+    line-height: 1.45;
+    position: relative;
+}
+
+#javaWheel {
+    left: 30%;
+    margin-top: 20%;
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+}
+
+#javaKeywords {
+    height: 720px;
+    position: relative;
+}
+
+#jsWheel {
+    left: 33%;
+    margin-top: 15%;
+    overflow: visible;
+    position: absolute;
+    width: 550px;
+}
+
+#jsKeywords {
+    height: 720px;
+    position: relative;
+}
+
+#keywordRelationships {
+    height: 1280px;
+}
+
+#keywordTable td:nth-child(2) {
+    text-align: center;
+}
+
+#memories {
+    background: #111 url("../websites/memories/images/memoriesPoster.png") no-repeat center bottom;
+    height: 100%;
+}
+
+#passion {
+    position: relative;
+}
+
+#passion img {
+    width: 100%;
+    background-position: center;
+}
+
+#passionAnimate1 {
+    font-size: 4vw;
+    left: 4%;
+    position: absolute;
+    top: 3%;
+}
+
+#passionAnimate2 {
+    color: rgba(214, 155, 73, 1);
+    font-size: 14vw;
+    left: 28%;
+    mix-blend-mode: difference;
+    position: absolute;
+    top: 30%;
+}
+
+#relationshipsText {
+    padding-top: 2%;
+}
+
+#techList {
+    height: 1024px;
+    padding-top: 25%;
+}
+
+#techWheel {
+    height: 1024px;
+    margin-left: -125px;
+    margin-top: -125px;
+}
+
+#vcpip {
+    background: #111 url("../websites/vcpip/graphics/logo2.png") no-repeat center bottom;
+    height: 100%;
+    text-align: center;
+}
+
+#ufcSplash {
+    height: 960px;
+}
+
+#underConstruction {
+    width: 30%;
+
+}
+
+#websites {
+    height: 16vw;
+}
+
+/* Class Section */
+
+.down1 {
+    padding-top: 1%;
+}
+
+.down2 {
+    padding-top: 2%;
+}
+
+.down3 {
+    padding-top: 3%;
+}
+
+.down4 {
+    padding-top: 4%;
+}
+
+.down5 {
+    padding-top: 5%;
+}
+
+.down6 {
+    padding-top: 6%;
+}
+
+.down7 {
+    padding-top: 7%;
+}
+
+.down8 {
+    padding-top: 8%;
+}
+.down9 {
+    padding-top: 9%;
+}
+.down10 {
+    padding-top: 10%;
+}
+
+.footerLinks {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.glyphicon-alert {
+    color: rgba(231, 186, 82, 1);
+    padding-left: 1%;
+}
+
+.navbar-brand { /* overrides bootstrap.css to properly align brand image */
+    padding: 5px 15px;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    color: rgba(222,158,214,1);
+    background-color: rgba(107, 110, 207, .25);
+}
+
+.objectBox {
+    text-align: center;
+}
+
+
+/* CSS for Tag Cloud Visualization Page techfamily.html*/
+
+.node circle {
+    fill: rgba(99, 121, 57, 1);
+    stroke: rgba(99, 121, 57, 1);
+    stroke-width: 0px;
+}
+
+.node {
+    font: 1.10rem sans-serif;
+}
+
+.node text {
+    fill: rgba(99, 121, 57, 1);
+}
+
+.link {
+    fill: none;
+    stroke: rgba(99, 121, 57, .35);
+    stroke-width: 1px;
+}
+
